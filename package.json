@@ -1,0 +1,18 @@
+{
+  "name": "head-of-the-class",
+  "version": "1.0.0",
+  "description": "## Instructions In the initial commit to this project, you have been provided with files that contain a JavaScript module and some associated tests. Your task is to implement a `calculateTotal` function that will return a new list of items where each item has a new attribute called `total` with a value equal to the total price of that item. This exercise will be completed in class.",
+  "main": "grades.js",
+  "scripts": {
+    "lint": "eslint --format codeframe .",
+    "lint:fix": "eslint --fix --format codeframe .",
+    "test": "mocha -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^7.1.1"
+  }
+}
